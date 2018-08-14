@@ -10,6 +10,17 @@ The world border module uses the default minecraft world border and allows custo
 
 Attributes for multiple world borders can be applied for all borders by specifying them in the root `<world-borders>` element.
 
+<div class='alert alert-warning alert-small'>
+  <div class='clearfix'>
+    <i class='fa fa-2x fa-exclamation-triangle'></i>
+    <p class='alert-content'>
+      Players using versions lower than 1.8 and above will not be able to see the world border.
+      <br/>
+      Legacy versions are not officially maintained or supported.
+    </p>
+  </div>
+</div>
+
 <div class='table-responsive'>
   <table class='table table-striped table-condensed'>
     <thead>
