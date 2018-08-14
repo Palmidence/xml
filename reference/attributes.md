@@ -29,13 +29,6 @@ Players or mobs carrying or wearing items with these attributes will have the ef
         <td>0.0</td>
         <td>1.7x10<sup>308</sup></td>
       </tr>
-      <!-- %tr -->
-      <!-- %td -->
-      <!-- %code generic.followRange -->
-      <!-- %td The range in blocks within which a mob with this attribute will target players or other mobs to track. Exiting this range will cause the mob to cease following the player/mob. Actual value used by most mobs is 16; for Zombies it is 40. -->
-      <!-- %td 32.0 -->
-      <!-- %td 0.0 -->
-      <!-- %td 2048.0 -->
       <tr>
         <td>
           <code>generic.knockbackResistance</code>
@@ -80,10 +73,19 @@ Players or mobs carrying or wearing items with these attributes will have the ef
         <td>
           <code>generic.armorToughness</code>
         </td>
-        <td>Armor Toughness.</td>
+        <td>Armor toughness.</td>
         <td>0.0</td>
         <td>0.0</td>
         <td>20.0</td>
+      </tr>
+      <tr>
+        <td>
+          <code>generic.followRange</code>
+        </td>
+        <td>The range in blocks within which a mob with this attribute will target players or other mobs to track. </td>
+        <td>32.0</td>
+        <td>0.0</td>
+        <td>2048.0</td>
       </tr>
       <tr>
         <th colspan='5'>Player Attributes</th>
@@ -105,6 +107,18 @@ Players or mobs carrying or wearing items with these attributes will have the ef
         <td>0.0</td>
         <td>-1024.0</td>
         <td>1024.0</td>
+      </tr>
+      <tr>
+        <th colspan='5'>Horse Attributes</th>
+      </tr>
+      <tr>
+        <td>
+          <code>horse.jumpStrength</code>
+        </td>
+        <td>Horse jump strength in some unknown metric.</td>
+        <td>0.7</td>
+        <td>0.0</td>
+        <td>2.0</td>
       </tr>
     </tbody>
   </table>
